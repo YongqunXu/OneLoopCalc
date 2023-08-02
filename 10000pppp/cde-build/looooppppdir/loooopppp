@@ -1,0 +1,105 @@
+BasisDirectory[loooopppp] = StringDrop[DirectoryName[$Input], -1]
+loooopppp /: BasisSectors[loooopppp] := 
+  Get[StringJoin[BasisDirectory[loooopppp], "/BasisSectors[loooopppp]"]]
+loooopppp /: CutDs[loooopppp] := {0, 0, 0, 0}
+loooopppp /: Definitions[loooopppp] := 
+  {Hold[MetricTensor[] === d, SetDim[d]], Hold[VecQ[l], Declare[l, Vector]], 
+   Hold[VecQ[p1], Declare[p1, Vector]], Hold[VecQ[p2], Declare[p2, Vector]], 
+   Hold[VecQ[p3], Declare[p3, Vector]], Hold[TypeOf[p1] === Vector, 
+    Declare[p1, Vector]], Hold[TypeOf[p2] === Vector, Declare[p2, Vector]], 
+   Hold[TypeOf[p3] === Vector, Declare[p3, Vector]], 
+   Hold[TypeOf[s] === Number, Declare[s, Number]], 
+   Hold[TypeOf[t] === Number, Declare[t, Number]], 
+   Hold[sp[p1, p1] === 0, sp[p1, p1] = 0], Hold[sp[p2, p2] === 0, 
+    sp[p2, p2] = 0], Hold[sp[p3, p3] === 0, sp[p3, p3] = 0], 
+   Hold[sp[p1, p2] === s/2, sp[p1, p2] = s/2], 
+   Hold[sp[p1, p3] === (-s - t)/2, sp[p1, p3] = (-s - t)/2], 
+   Hold[sp[p2, p3] === t/2, sp[p2, p3] = t/2]}
+loooopppp /: Ds[loooopppp] := {sp[l, l], sp[l, 2*p1], 
+   sp[l, 2*p1] + sp[l, 2*p2] + sp[p1, 2*p2], sp[l, 2*p1] + sp[l, 2*p2] + 
+    sp[l, 2*p3] + sp[p1, 2*p2] + sp[p1, 2*p3] + sp[p2, 2*p3]}
+loooopppp /: EMs[loooopppp] := {p1, p2, p3}
+loooopppp /: IBP[loooopppp] := Get[StringJoin[BasisDirectory[loooopppp], 
+    "/IBP[loooopppp]"]]
+loooopppp /: Information[loooopppp] := 
+  (If[ValueQ[loooopppp::usage], Information[loooopppp, LongForm -> False]]; 
+   Print[Grid[Partition[Union[Replace[Replace[First /@ UpValues[loooopppp] /. 
+          HoldPattern -> HoldForm, 
+         {HoldPattern[HoldForm[(LiteRed`Private`f$_)[loooopppp, __]]] :> 
+           HoldForm[LiteRed`Private`f$[loooopppp, "\[Ellipsis]"]]}, {1}], 
+        {HoldPattern[LiteRed`Private`x$:HoldForm[(LiteRed`Private`f$_)[
+              loooopppp, ___]]] :> Button[LiteRed`Private`x$, 
+           (SelectionMove[ButtonNotebook[], All, GeneratedCell]; 
+             NotebookDelete[]; Information[Evaluate[LiteRed`Private`x$[[1,
+                0]]], LongForm -> False]; Print[TableForm[Cases[UpValues[
+                  loooopppp], HoldPattern[LiteRed`Private`a$_ :> 
+                    LiteRed`Private`b$_] /; MatchQ[LiteRed`Private`a$[[1,0]], 
+                   LiteRed`Private`x$[[1,0]]]] /. HoldPattern -> 
+                 HoldForm]]) & , Appearance -> "Frameless", 
+           BaseStyle -> "InformationLink"]}, {1}]], 5], 
+     DefaultBaseStyle -> "InfoGrid"]])
+loooopppp /: jRules[loooopppp, 1, 1, 1, 0] := 
+  Get[StringJoin[BasisDirectory[loooopppp], "/jRules[loooopppp, 1, 1, 1, 0]"]]
+loooopppp /: jSymmetries[loooopppp, 1, 0, 1, 0] := 
+  Get[StringJoin[BasisDirectory[loooopppp], 
+    "/jSymmetries[loooopppp, 1, 0, 1, 0]"]]
+loooopppp /: jSymmetries[loooopppp, 1, 0, 1, 1] := 
+  Get[StringJoin[BasisDirectory[loooopppp], 
+    "/jSymmetries[loooopppp, 1, 0, 1, 1]"]]
+loooopppp /: jSymmetries[loooopppp, 1, 1, 1, 1] := 
+  Get[StringJoin[BasisDirectory[loooopppp], 
+    "/jSymmetries[loooopppp, 1, 1, 1, 1]"]]
+loooopppp /: LiteRed`LI[loooopppp] := 
+  {(#4*s*j[loooopppp, #1, -1 + #2, #3, 1 + #4])/2 + 
+     #3*s*j[loooopppp, #1, -1 + #2, 1 + #3, #4] + 
+     (#4*t*j[loooopppp, #1, #2, -1 + #3, 1 + #4])/2 + 
+     ((#2 - #3)*s*j[loooopppp, #1, #2, #3, #4])/2 - 
+     (#4*s*t*j[loooopppp, #1, #2, #3, 1 + #4])/2 + 
+     (#3*s^2*j[loooopppp, #1, #2, 1 + #3, #4])/2, 
+    -1/2*(#4*s*j[loooopppp, #1, -1 + #2, #3, 1 + #4]) - 
+     (#3*s*j[loooopppp, #1, -1 + #2, 1 + #3, #4])/2 - 
+     (#4*t*j[loooopppp, #1, #2, -1 + #3, 1 + #4])/2 + 
+     ((-(#2*s) + #3*s - #2*t + #4*t)*j[loooopppp, #1, #2, #3, #4])/2 + 
+     (#4*s*t*j[loooopppp, #1, #2, #3, 1 + #4])/2 - 
+     (#3*s*j[loooopppp, #1, #2, 1 + #3, -1 + #4])/2 - 
+     (#3*s^2*j[loooopppp, #1, #2, 1 + #3, #4])/2, 
+    (#4*s*j[loooopppp, #1, -1 + #2, #3, 1 + #4])/2 + 
+     (#3*s*j[loooopppp, #1, -1 + #2, 1 + #3, #4])/2 + 
+     (#4*t*j[loooopppp, #1, #2, -1 + #3, 1 + #4])/2 + 
+     ((#2 - #4)*(s + t)*j[loooopppp, #1, #2, #3, #4])/2 - 
+     (#4*s*t*j[loooopppp, #1, #2, #3, 1 + #4])/2 - 
+     (#3*s*j[loooopppp, #1, #2, 1 + #3, -1 + #4])/2 - 
+     (#2*t*j[loooopppp, #1, 1 + #2, -1 + #3, #4])/2 - 
+     (#2*s*j[loooopppp, #1, 1 + #2, #3, -1 + #4])/2 + 
+     (#2*s*t*j[loooopppp, #1, 1 + #2, #3, #4])/2} & 
+loooopppp /: LMs[loooopppp] := {l}
+loooopppp /: MappedSectors[loooopppp] := 
+  Get[StringJoin[BasisDirectory[loooopppp], "/MappedSectors[loooopppp]"]]
+loooopppp /: MIs[loooopppp] := {}
+loooopppp /: NonZeroSectors[loooopppp] := 
+  Get[StringJoin[BasisDirectory[loooopppp], "/NonZeroSectors[loooopppp]"]]
+loooopppp /: SimpleSectors[loooopppp] := 
+  Get[StringJoin[BasisDirectory[loooopppp], "/SimpleSectors[loooopppp]"]]
+loooopppp /: SPs[loooopppp] := {sp[l, l], sp[l, p1], sp[l, p2], sp[l, p3]}
+loooopppp /: SR[loooopppp] := Get[StringJoin[BasisDirectory[loooopppp], 
+    "/SR[loooopppp]"]]
+loooopppp /: Toj[loooopppp] := {sp[l, l] -> j[loooopppp, -1, 0, 0, 0], 
+   sp[l, p1] -> j[loooopppp, 0, -1, 0, 0]/2, 
+   sp[l, p2] -> (-s - j[loooopppp, 0, -1, 0, 0] + j[loooopppp, 0, 0, -1, 0])/
+     2, sp[l, p3] -> (s - j[loooopppp, 0, 0, -1, 0] + 
+      j[loooopppp, 0, 0, 0, -1])/2}
+loooopppp /: UniqueSectors[loooopppp] := 
+  Get[StringJoin[BasisDirectory[loooopppp], "/UniqueSectors[loooopppp]"]]
+loooopppp /: ZerojRule[loooopppp] := LiteRed`Private`jjj:j[loooopppp, __] :> 
+   0 /; Module[{LiteRed`Private`jjs = 
+       Rest[List @@ jSector[LiteRed`Private`jjj]]}, 
+     Or @@ (BitOr[LiteRed`Private`jjs, #1] === #1 & ) /@ 
+       {{1, 1, 0, 1}, {0, 1, 1, 1}}]
+loooopppp /: ZeroSectors[loooopppp] := 
+  Get[StringJoin[BasisDirectory[loooopppp], "/ZeroSectors[loooopppp]"]]
+loooopppp::usage = "1-loop basis with 3 external momenta.\nUse \
+Information[loooopppp] to get basis summary.\nThis string can be redefined by \
+setting loooopppp::usage=\"\[Ellipsis]\""; Information[loooopppp, 
+  LongForm -> False]; 
+LiteRed`Private`CheckDefs[loooopppp]
+BasisDirectory[loooopppp]

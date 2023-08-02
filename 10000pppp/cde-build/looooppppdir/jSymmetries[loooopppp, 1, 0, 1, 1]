@@ -1,0 +1,2 @@
+{{j[loooopppp, (n1_)?Positive, (n2_)?NonPositive, (n3_)?Positive, 
+     (n4_)?Positive] /; True :> Expand[j[loooopppp, n1, n2, n3, n4]]}}

@@ -1,0 +1,3 @@
+{"Family" -> box, "Loop" -> {}, "Leg" -> {l}, "Conservation" -> {}, 
+ "Replacement" -> {l^2 -> -1}, "Propagator" -> {}, "Numeric" -> {}, 
+ "NThread" -> 4}

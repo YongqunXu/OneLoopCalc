@@ -1,0 +1,14 @@
+{{j[loooopppp, (n1_)?Positive, (n2_)?NonPositive, (n3_)?Positive, 
+     (n4_)?NonPositive] /; True :> Expand[j[loooopppp, n1, 0, n3, 0]/
+     ((-j[loooopppp, 0, -1, 0, 0] + j[loooopppp, 0, 0, -1, 0] - 
+        s*j[loooopppp, 0, 0, 0, 0])^n2*(j[loooopppp, 0, 0, -1, 0] - 
+        j[loooopppp, 0, 0, 0, -1] - s*j[loooopppp, 0, 0, 0, 0])^n4)]}, 
+ {j[loooopppp, (n1_)?Positive, (n2_)?NonPositive, (n3_)?Positive, 
+     (n4_)?NonPositive] /; True :> Expand[j[loooopppp, n1, n4, n3, n2]]}, 
+ {j[loooopppp, (n1_)?Positive, (n2_)?NonPositive, (n3_)?Positive, 
+     (n4_)?NonPositive] /; True :> Expand[j[loooopppp, n1, n2, n3, n4]]}, 
+ {j[loooopppp, (n1_)?Positive, (n2_)?NonPositive, (n3_)?Positive, 
+     (n4_)?NonPositive] /; True :> Expand[j[loooopppp, n1, 0, n3, 0]/
+     ((-j[loooopppp, 0, -1, 0, 0] + j[loooopppp, 0, 0, -1, 0] - 
+        s*j[loooopppp, 0, 0, 0, 0])^n4*(j[loooopppp, 0, 0, -1, 0] - 
+        j[loooopppp, 0, 0, 0, -1] - s*j[loooopppp, 0, 0, 0, 0])^n2)]}}

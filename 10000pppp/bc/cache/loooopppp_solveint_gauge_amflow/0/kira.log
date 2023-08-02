@@ -1,0 +1,71 @@
+4 Fermat/Blackbox instances will be run in parallel.
+The user defined environment variable FERMATPATH for Fermat is set:
+/home/yqx/Program/fermat6/ferl6/fer64
+One variable is set to 1: {}
+The directories for the temporary files, result files and the sector mapping files are: 
+./tmp
+./results
+./sectormappings
+Kira prepares topology: loooopppp and top level sector: 
+15 
+
+*****Integral ordering*************************************
+Kira will use the integral ordering: 5.
+Following reductions will be performed for the topology: loooopppp
+Sector: 15 rmax: 4 smax: 3 
+
+***********************************************************
+Find IBP LI and symmetry relations for the topology: loooopppp
+***********************************************************
+
+*****Search trivial sectors********************************
+read from: ./sectormappings/loooopppp/nonTrivialSector
+
+Non trivial sectors in total: 10
+Trivial sectors in total: 6
+( 0.000973 s )
+
+Search symmetry relations: 
+read from: ./sectormappings/loooopppp/canonica
+Number of symmetries read out: 10
+
+( 7.8e-05 s )
+***********************************************************
+Prepare Symmetries for the topology: loooopppp
+***********************************************************
+read from: ./sectormappings/loooopppp/sectorRelations
+Number of symmetries read out: 2
+read from: ./sectormappings/loooopppp/sectorSymmetries
+Number of symmetries read out: 4
+
+***********************************************************
+Kira starts the reduction of the topology: loooopppp
+***********************************************************
+
+***** Select equations recursively ************************
+length of mandatory list: 5
+Algebraic reconstruction is switched off.
+103 independent coefficients
+directory to the masters: loooopppp
+Number of master integrals: 5
+loooopppp[0,0,1,0] #  4
+loooopppp[1,0,1,0] #  5
+loooopppp[0,1,0,1] # 10
+loooopppp[0,1,1,1] # 14
+loooopppp[1,1,1,1] # 15
+No integrals to reduce, skipping this family.
+The input directory is set to:
+./results
+symbol_to_replace_by_one: x in kinematics.yaml is not set. 
+Mass reconstruction is disabled.
+################################################
+kira2math: Reconstruct results for loooopppp
+################################################
+
+Algebraic reconstruction is switched off.
+
+No reductions found in ./results/kira.db.
+
+Unable to export results to Mathematica
+Total time:
+( 3.01071 s )

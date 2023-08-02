@@ -1,0 +1,10 @@
+integralfamilies:
+  - name: "box"
+    loop_momenta: [l]
+    top_level_sectors: [15]
+    propagators:
+      - [ "l", 0 ]
+      - [ "l + p1/boxx", 0 ]
+      - [ "l + p1/boxx + p2/boxx", -boxx^(-2) + boxx^(-1) ]
+      - [ "l + p1/boxx + p2/boxx + p3/boxx", 0 ]
+    cut_propagators: []

@@ -1,0 +1,15 @@
+{{j[loooopppp, 0, 0, 1, 0], j[loooopppp, 1, 0, 1, 0], 
+  j[loooopppp, 0, 1, 0, 1], j[loooopppp, 0, 1, 1, 1], 
+  j[loooopppp, 1, 1, 1, 1]}, {looooppppx}, 
+ {{{(2 - 2*eps - looooppppx + eps*looooppppx)/((-1 + looooppppx)*looooppppx), 
+    0, 0, 0, 0}, {((-1 + eps)*looooppppx)/(-1 + looooppppx), looooppppx^(-1), 
+    0, 0, 0}, {0, 0, (2*eps)/looooppppx, 0, 0}, 
+   {((-1 + eps)*looooppppx^4)/((-16 + looooppppx)*(-1 + looooppppx)^2), 0, 
+    -(((-1 + 2*eps)*looooppppx^2)/((-16 + looooppppx)*(-1 + looooppppx))), 
+    (32 + 32*eps - 34*looooppppx - 17*eps*looooppppx + 2*looooppppx^2)/
+     ((-16 + looooppppx)*(-1 + looooppppx)*looooppppx), 0}, 
+   {(-looooppppx^5 + eps*looooppppx^5)/((-16 + looooppppx)*
+      (-1 + looooppppx)^2), 0, 
+    -1/15*((-1 + 2*eps)*looooppppx^3*(-17 + 2*looooppppx))/
+      ((-16 + looooppppx)*(-1 + looooppppx)), (-15*eps*looooppppx)/
+     ((-16 + looooppppx)*(-1 + looooppppx)), 3/looooppppx}}}}

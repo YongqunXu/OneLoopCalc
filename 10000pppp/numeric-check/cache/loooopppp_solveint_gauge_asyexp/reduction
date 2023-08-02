@@ -1,0 +1,8 @@
+{{j[loooopppp, 0, 0, 1, 0], j[loooopppp, 1, 0, 1, 0], 
+  j[loooopppp, 0, 1, 0, 1], j[loooopppp, 0, 1, 1, 1], 
+  j[loooopppp, 1, 1, 1, 1]}, {j[loooopppp, 0, 0, 1, 0] -> 
+   {looooppppx^(-1), 0, 0, 0, 0}, j[loooopppp, 1, 0, 1, 0] -> 
+   {0, looooppppx^(-1), 0, 0, 0}, j[loooopppp, 0, 1, 0, 1] -> 
+   {0, 0, looooppppx^(-2), 0, 0}, j[loooopppp, 0, 1, 1, 1] -> 
+   {0, 0, 0, looooppppx^(-3), 0}, j[loooopppp, 1, 1, 1, 1] -> 
+   {0, 0, 0, 0, looooppppx^(-3)}}}

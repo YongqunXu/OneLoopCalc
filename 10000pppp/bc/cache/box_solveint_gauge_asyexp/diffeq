@@ -1,0 +1,11 @@
+{{j[box, 0, 0, 1, 0], j[box, 1, 0, 1, 0], j[box, 0, 1, 0, 1], 
+  j[box, 0, 1, 1, 1], j[box, 1, 1, 1, 1]}, {boxx}, 
+ {{{(2 - boxx - 2*eps + boxx*eps)/((-1 + boxx)*boxx), 0, 0, 0, 0}, 
+   {(boxx*(-1 + eps))/(-1 + boxx), boxx^(-1), 0, 0, 0}, 
+   {0, 0, (2*eps)/boxx, 0, 0}, 
+   {(boxx^4*(-1 + eps))/((-2 + boxx)*(-1 + boxx)^2), 0, 
+    -((boxx^2*(-1 + 2*eps))/((-2 + boxx)*(-1 + boxx))), 
+    (4 - 6*boxx + 2*boxx^2 + 4*eps - 3*boxx*eps)/((-2 + boxx)*(-1 + boxx)*
+      boxx), 0}, {(-boxx^5 + boxx^5*eps)/((-2 + boxx)*(-1 + boxx)^2), 0, 
+    -((boxx^3*(-3 + 2*boxx)*(-1 + 2*eps))/((-2 + boxx)*(-1 + boxx))), 
+    -((boxx*eps)/((-2 + boxx)*(-1 + boxx))), 3/boxx}}}}
