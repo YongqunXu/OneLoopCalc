@@ -23,13 +23,13 @@ read from: ./sectormappings/loooopppp/nonTrivialSector
 
 Non trivial sectors in total: 10
 Trivial sectors in total: 6
-( 0.000689 s )
+( 0.000879 s )
 
 Search symmetry relations: 
 read from: ./sectormappings/loooopppp/canonica
 Number of symmetries read out: 10
 
-( 4.9e-05 s )
+( 4.8e-05 s )
 ***********************************************************
 Prepare Symmetries for the topology: loooopppp
 ***********************************************************
@@ -50,7 +50,7 @@ Kira starts the reduction of the topology: loooopppp
 ***** Select equations recursively ************************
 length of mandatory list: 15
 Algebraic reconstruction is switched off.
-198 independent coefficients
+224 independent coefficients
 directory to the masters: loooopppp
 Number of master integrals: 5
 loooopppp[0,0,1,0] #  4
@@ -61,7 +61,7 @@ loooopppp[1,1,1,1] # 15
 Regenerate:
 
 Number of selected equations to reduce: 59 equations
-( 0.02414 s )
+( 0.028011 s )
 Algebraic reconstruction is switched off.
 
 ***** Select equations recursively ************************
@@ -70,24 +70,24 @@ length of mandatory list: 15
 ***** Bring system in triangular form *********************
 
 Iterate the system until it is in triangular form: 
-iteration: 0; items left: 17; time: ( 0.000688 s )
-iteration: 1; items left: 14; time: ( 0.000984 s )
-iteration: 2; items left: 9; time: ( 0.001241 s )
-iteration: 3; items left: 6; time: ( 0.00141 s )
-iteration: 4; items left: 4; time: ( 0.001552 s )
-iteration: 5; items left: 3; time: ( 0.001644 s )
-iteration: 6; items left: 2; time: ( 0.001757 s )
+iteration: 0; items left: 17; time: ( 0.001122 s )
+iteration: 1; items left: 14; time: ( 0.00153 s )
+iteration: 2; items left: 9; time: ( 0.001898 s )
+iteration: 3; items left: 6; time: ( 0.002147 s )
+iteration: 4; items left: 4; time: ( 0.002341 s )
+iteration: 5; items left: 3; time: ( 0.002452 s )
+iteration: 6; items left: 2; time: ( 0.002605 s )
 redundant: 0; insertions 72
 All coefficients will be normalized
 
 Equations out of bounds rmax and smax: 28
 Equations in the bounds rmax and smax: 31
-( 0.002357 s )
+( 0.003468 s )
 
 Write the triangular system to ./tmp/ on hard disk
 (--> ./tmp/loooopppp/VERconfig, ./tmp/loooopppp/VER###) 
 
-Triangular form completed after ( 0.003339 s )
+Triangular form completed after ( 0.004632 s )
 FIREFLY table created successfully
 Algebraic reconstruction is switched off.
 Equation table created successfully

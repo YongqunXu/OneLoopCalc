@@ -2,14 +2,24 @@
   j[loooopppp, 0, 1, 0, 1], j[loooopppp, 0, 1, 1, 1], 
   j[loooopppp, 1, 1, 1, 1]}, {looooppppx}, 
  {{{(2 - 2*eps - looooppppx + eps*looooppppx)/((-1 + looooppppx)*looooppppx), 
-    0, 0, 0, 0}, {((-1 + eps)*looooppppx)/(-1 + looooppppx), looooppppx^(-1), 
-    0, 0, 0}, {0, 0, (2*eps)/looooppppx, 0, 0}, 
-   {((-1 + eps)*looooppppx^4)/((-16 + looooppppx)*(-1 + looooppppx)^2), 0, 
-    -(((-1 + 2*eps)*looooppppx^2)/((-16 + looooppppx)*(-1 + looooppppx))), 
-    (32 + 32*eps - 34*looooppppx - 17*eps*looooppppx + 2*looooppppx^2)/
-     ((-16 + looooppppx)*(-1 + looooppppx)*looooppppx), 0}, 
-   {(-looooppppx^5 + eps*looooppppx^5)/((-16 + looooppppx)*
-      (-1 + looooppppx)^2), 0, 
-    -1/15*((-1 + 2*eps)*looooppppx^3*(-17 + 2*looooppppx))/
-      ((-16 + looooppppx)*(-1 + looooppppx)), (-15*eps*looooppppx)/
-     ((-16 + looooppppx)*(-1 + looooppppx)), 3/looooppppx}}}}
+    0, 0, 0, 0}, {((-100000000/100000001 + (10000*I)/100000001)*(-1 + eps)*
+      looooppppx)/(-1 + looooppppx), looooppppx^(-1), 0, 0, 0}, 
+   {0, 0, (2*eps)/looooppppx, 0, 0}, 
+   {((1000000000000/100000001 - (100000000*I)/100000001)*(-1 + eps)*
+      looooppppx^4)/((-1 + looooppppx)^2*((-160000 - 2*I) + 
+       (10000 + I)*looooppppx)), 0, (10000*(-1 + 2*eps)*looooppppx^2)/
+     ((-1 + looooppppx)*((-160000 - 2*I) + (10000 + I)*looooppppx)), 
+    ((320000 + 4*I) + (320000 + 4*I)*eps - (340000 + 6*I)*looooppppx - 
+      (170000 + 3*I)*eps*looooppppx + (20000 + 2*I)*looooppppx^2)/
+     ((-1 + looooppppx)*looooppppx*((-160000 - 2*I) + 
+       (10000 + I)*looooppppx)), 0}, 
+   {((-99999999000000000000/10000000200000001 + (20000000000000000*I)/
+        10000000200000001)*(-looooppppx^5 + eps*looooppppx^5))/
+     ((-1 + looooppppx)^2*((-160000 - 2*I) + (10000 + I)*looooppppx)), 0, 
+    ((-149999999900000000/2250000022600000001 + (16000000000000*I)/
+        2250000022600000001)*(-1 + 2*eps)*looooppppx^3*
+      ((-170000 - 3*I) + (20000 + 2*I)*looooppppx))/
+     ((-1 + looooppppx)*((-160000 - 2*I) + (10000 + I)*looooppppx)), 
+    ((15000000010000/100000001 - (1400000000*I)/100000001)*eps*looooppppx)/
+     ((-1 + looooppppx)*((-160000 - 2*I) + (10000 + I)*looooppppx)), 
+    3/looooppppx}}}}

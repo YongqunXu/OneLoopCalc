@@ -23,13 +23,13 @@ read from: ./sectormappings/loooopppp/nonTrivialSector
 
 Non trivial sectors in total: 10
 Trivial sectors in total: 6
-( 0.0011 s )
+( 0.000852 s )
 
 Search symmetry relations: 
 read from: ./sectormappings/loooopppp/canonica
 Number of symmetries read out: 10
 
-( 8.6e-05 s )
+( 4.5e-05 s )
 ***********************************************************
 Prepare Symmetries for the topology: loooopppp
 ***********************************************************
@@ -45,7 +45,7 @@ Kira starts the reduction of the topology: loooopppp
 ***** Select equations recursively ************************
 length of mandatory list: 2
 Algebraic reconstruction is switched off.
-151 independent coefficients
+172 independent coefficients
 directory to the masters: loooopppp
 Number of master integrals: 2
 loooopppp[1,0,1,0] #  5
@@ -65,4 +65,4 @@ No reductions found in ./results/kira.db.
 
 Unable to export results to Mathematica
 Total time:
-( 3.06555 s )
+( 3.01079 s )

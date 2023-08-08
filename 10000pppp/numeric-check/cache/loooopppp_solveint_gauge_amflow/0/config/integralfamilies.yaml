@@ -5,6 +5,6 @@ integralfamilies:
     propagators:
       - [ "l", 0 ]
       - [ "l + 10*p1", 0 ]
-      - [ "l + 10*p1 + 10*p2", -90 ]
+      - [ "l + 10*p1 + 10*p2", 90*s ]
       - [ "l + 10*p1 + 10*p2 + 10*p3", 0 ]
     cut_propagators: []

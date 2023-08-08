@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.1.9)  30 JUL 2023 11:02
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.1.9)  8 AUG 2023 19:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -600,36 +600,35 @@ Package hyperref Info: Link coloring OFF on input line 57.
 \@outlinefile=\write3
 \openout3 = `OneLoopCalc.out'.
 
- (./OneLoopCalc.toc)
-\tf@toc=\write4
-\openout4 = `OneLoopCalc.toc'.
-
- [1
-
-]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 60.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 59.
 
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 60.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 59.
 
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [2]
-(./OneLoopCalc.aux)
+)
+Overfull \hbox (22.78447pt too wide) detected at line 92
+[]
+ []
+
+[1
+
+] (./OneLoopCalc.aux)
 Package rerunfilecheck Info: File `OneLoopCalc.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: F3451842D6D051B235FFE2E2C3676BC2;317.
  ) 
 Here is how much of TeX's memory you used:
- 15211 strings out of 476778
- 327697 string characters out of 5805976
- 1844979 words of memory out of 5000000
- 35150 multiletter control sequences out of 15000+600000
- 521925 words of font info for 84 fonts, out of 8000000 for 9000
+ 15174 strings out of 476778
+ 327080 string characters out of 5805976
+ 1865979 words of memory out of 5000000
+ 35129 multiletter control sequences out of 15000+600000
+ 517256 words of font info for 63 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 89i,5n,97p,381b,354s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,9n,97p,381b,334s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on OneLoopCalc.pdf (2 pages).
+Output written on OneLoopCalc.pdf (1 page).

@@ -7,8 +7,8 @@ Get["/home/yqx/Program/amflow/diffeq_solver/DESolver.m"];
 
 sol[n_]:=Module[{tablecoe,de,bc,masterexp,allexp},
 SetDefaultOptions[];
-SetGlobalOptions["WorkingPre" -> 312, "ChopPre" -> 20];
-SetExpansionOptions["XOrder" -> 624, "LearnXOrder" -> -1, "TestXOrder" -> 5];
+SetGlobalOptions["WorkingPre" -> 192, "ChopPre" -> 20];
+SetExpansionOptions["XOrder" -> 384, "LearnXOrder" -> -1, "TestXOrder" -> 5];
 tablecoe = Values[table]/.{variables[[1]] -> eta, eps -> boundary[[n,1]]}//Factor;
 de = diffeq[[1]]/.{variables[[1]] -> eta, eps -> boundary[[n,1]]}//Factor;
 bc = boundary[[n,2]];

@@ -55,12 +55,48 @@
 \author{}
 \date{}
 \begin{document}
-	\tableofcontents
-	\maketitle
 From \href{https://arxiv.org/pdf/1512.02860.pdf}{1512.02860}: 
 \begin{equation}
 	\frac{1}{D_1D_2D_3D_4}=\sum_{i=1}^{4}\frac{1}{D_i}\prod_{j\ne i}\frac{1}{D_j-D_i}
 \end{equation}
+\section{i=1}
+\subsection{ ++++, massless: ioooopppp}
+
+
+	\begin{align}
+	D_1=&\ell ^2+i \epsilon  \\
+	D_2=&2 p_1 \ell +i \epsilon  \\
+	D_3=&2 \left(p_1+p_2\right) \ell +2 p_1 p_2+i \epsilon  \\
+	D_4=&2 \left(p_1+p_2+p_3\right) \ell +2 \left(p_1 p_2+p_3 p_2+p_1 p_3\right)+i \epsilon  
+	\end{align}
+\begin{equation}
+	p_1^2\to 0,p_2^2\to 0,p_3^2\to 0,p_1 p_2\to \frac{s}{2},p_2 p_3\to \frac{t}{2},p_1 p_3\to
+	\frac{1}{2} (-s-t)
+\end{equation}
+\begin{equation}
+	x=\frac{t}{s}
+\end{equation}
+Master Integrals:
+\begin{equation}
+	F[1010]=\int\frac{\dd^d\ell}{i\pi^{d/2}}\frac{1}{D_1D_3};\qquad F[1111]=\int\frac{\dd^d\ell}{i\pi^{d/2}}\frac{1}{D_1D_2D_3D_4}
+\end{equation}
+UT basis:
+\begin{equation}
+	g_1(x)=-\frac12(1-2\epsilon)\ee^{\gamma_E\epsilon}(-s)^{\epsilon}F[1010],\qquad g_2(x)=\frac14\epsilon\ee^{\gamma_E\epsilon}(-s)^{\epsilon+2}s tF[1111]
+\end{equation}
+result:
+\begin{align}
+	&g_1(x)=-\frac{1}{4}-\frac{i \pi  \epsilon }{4}+\frac{\pi ^2 \epsilon ^2}{48}\\
+	&g_2(x)=\frac{1}{4}+\epsilon  \left(-\frac{1}{4} G(0,x)+\frac{i \pi }{2}\right)
+	+\frac{1}{48} \epsilon ^2 \left(12 i \pi  G(-1,x)-24 i \pi  G(0,x)-12 G(-1,0,x)+12 G(0,0,x)-17 \pi ^2\right)\notag
+\end{align}
+\section{temp}
+\begin{align}
+D_1=&\ell ^2+i \epsilon \\
+D_2=&2 p_1 \ell +p_1^2+i \epsilon \\
+D_3=&2 p_1 \ell +2 p_2 \ell +p_1^2+2 p_2 p_1+p_2^2+i \epsilon \\
+D_4=&2 p_1 \ell +2 p_2 \ell +2 p_3 \ell +p_1^2+2 p_2 p_1+2 p_3 p_1+p_2^2+p_3^2+2 p_2 p_3+i \epsilon 
+\end{align}
 
 	
 \end{document}
