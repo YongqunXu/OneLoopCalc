@@ -1,0 +1,12 @@
+{{{-1, -1, 0, -1, -1}, {"Family" -> loooopppp, "Loop" -> {l}, 
+   "Leg" -> {p1, p2, p3}, "Conservation" -> {}, 
+   "Replacement" -> {p1^2 -> 0, p1*p2 -> 1/2, p2^2 -> 0, p1*p3 -> 0, 
+     p2*p3 -> -1/2, p3^2 -> 0}, "Propagator" -> {l^2, (l + 10*p1)^2, 
+     (l + 10*p1 + 10*p2 + 10*p3)^2, (l + p2)^2}, "Numeric" -> {}, 
+   "NThread" -> 4}, {j[loooopppp, 0, 1, 1, 0]}, {{}, {}, {{1}}, {}, {}}}, 
+ {{1 - eps, -eps, -eps, -1 - eps, -2 - eps}, {"Family" -> loooopppp, 
+   "Loop" -> {l}, "Leg" -> {p1, p2, p3}, "Conservation" -> {}, 
+   "Replacement" -> {p1^2 -> 0, p1*p2 -> 1/2, p2^2 -> 0, p1*p3 -> 0, 
+     p2*p3 -> -1/2, p3^2 -> 0}, "Propagator" -> {-1 + l^2, (l + p1)^2, 
+     (l + p2)^2, (l + p3)^2}, "Numeric" -> {}, "NThread" -> 4}, 
+  {j[loooopppp, 1, 0, 0, 0]}, {{{1}}, {}, {}, {}, {}}}}

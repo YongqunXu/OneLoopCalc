@@ -1,0 +1,10 @@
+integralfamilies:
+  - name: "loooopppp"
+    loop_momenta: [l]
+    top_level_sectors: [6]
+    propagators:
+      - [ "l", 0 ]
+      - [ "l + 10*p1", eta ]
+      - [ "l + 10*p1 + 10*p2 + 10*p3", 0 ]
+      - [ "l + p2", 0 ]
+    cut_propagators: []

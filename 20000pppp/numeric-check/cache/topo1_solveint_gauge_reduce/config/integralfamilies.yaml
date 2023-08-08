@@ -1,0 +1,10 @@
+integralfamilies:
+  - name: "topo1"
+    loop_momenta: [l1]
+    top_level_sectors: [15]
+    propagators:
+      - [ "l1", 0 ]
+      - [ "l1 - p1/topo1x", 0 ]
+      - [ "l1 - p1/topo1x - p2/topo1x", -topo1x^(-2) - topo1x^(-1) ]
+      - [ "l1 - p1/topo1x - p2/topo1x - p3/topo1x", 0 ]
+    cut_propagators: []

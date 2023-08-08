@@ -1,0 +1,3 @@
+{{j[loooopppp, 0, 1, 0, 0], j[loooopppp, 0, 1, 1, 0]}, {eta}, 
+ {{{(1 - eps)/eta, 0}, {(-1 + eps)/(eta*(-100*I + eta)), 
+    (1 - 2*eps)/(-100*I + eta)}}}}
